@@ -320,10 +320,32 @@ int main() {
 	/* ------------------------------------------------------------------------------ */
 
 	/* -------------------- Multi-dimension Arrays ------------------------- */
+	/*int array1D[] = { 1,2,3,4,5 };
+	int num[3][4] = {
+		{1,2,3,4},
+		{5,6,7,8},
+		{9,10,11,12},
+	};
+	//int *ptr = &num[0][0];
+	int *ptr1 = array1D;
+	int *ptr2 = array1D + 3;
+	int *ptr = num;
+	int ROW = 3,
+		COLLUMN = 4,
+		TOTAL_CELLS = ROW * COLLUMN;
+	
+	/*for (int i = 0; i < TOTAL_CELLS; i++) {
+		printf("%d ", *(ptr + i));
+	}
+	int ptr0 = num + 0, ptr3 = num + 1;
+	ptr + 1;
+	//printf("%d %d", ptr + 0, ptr + 1);
+	printf("\n");*/
+
 	
 	/* --------------------------------------------------------------------- */
 
-	//return 0;
+	return 0;
 }
 
 // Note: Actually when main (calling function) call swap (called function) it takes two copies of 2 pointer
