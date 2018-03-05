@@ -69,12 +69,21 @@
     <ClCompile Include="Exercise5_7.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LeafYear.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exercise5_8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calc5_6.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="sorting_line.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leafYear.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

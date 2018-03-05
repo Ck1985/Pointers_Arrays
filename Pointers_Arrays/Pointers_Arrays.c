@@ -9,10 +9,10 @@
 #include "Exercise5_4.c"
 #include "Exercise5_5.c"
 #include "Exercise5_6.c"
-//#include "Exercise5_7.c"
 #include "PointersAndArrays.c"
 #include "calc5_6.h"
 #include "sorting_line.h"
+#include "leafYear.h"
 
 #define SIZE 100
 #define MAXOP 100
@@ -342,7 +342,10 @@ int main() {
 	//printf("%d %d", ptr + 0, ptr + 1);
 	printf("\n");*/
 
-	
+	int monthp = 0, dayp = 0;
+	month_day(2018, 90, &monthp, &dayp);
+	printf("month = %d and day = %d\n", monthp, dayp);
+
 	/* --------------------------------------------------------------------- */
 
 	return 0;

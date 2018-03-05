@@ -147,12 +147,14 @@
     <ClCompile Include="Exercise5_5.c" />
     <ClCompile Include="Exercise5_6.c" />
     <ClCompile Include="Exercise5_7.c" />
+    <ClCompile Include="Exercise5_8.c" />
     <ClCompile Include="getch.c" />
     <ClCompile Include="getch5_1.c" />
     <ClCompile Include="getch5_2.c" />
     <ClCompile Include="getch5_6.c" />
     <ClCompile Include="GetIntFunction.c" />
     <ClCompile Include="getop5_6.c" />
+    <ClCompile Include="LeafYear.c" />
     <ClCompile Include="PointersAndArrays.c" />
     <ClCompile Include="Pointers_Arrays.c" />
     <ClCompile Include="Rudimentary_Storage_Allocator.c" />
@@ -161,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calc5_6.h" />
+    <ClInclude Include="leafYear.h" />
     <ClInclude Include="sorting_line.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
