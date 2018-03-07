@@ -47,6 +47,7 @@ int atoi5_6Ver2(char *ps);
 void reverse5_6(char *ps);
 int strindex5_6(char *ps, char *pt);
 int strlen5_6(char *ps);
+char *month_name(int n);
 
 int main() {
 	/* ----------- Pointers and Adresses ------------- */
@@ -342,10 +343,13 @@ int main() {
 	//printf("%d %d", ptr + 0, ptr + 1);
 	printf("\n");*/
 
-	int monthp = 0, dayp = 0;
+	/*int monthp = 0, dayp = 0;
 	month_day(2018, 90, &monthp, &dayp);
-	printf("month = %d and day = %d\n", monthp, dayp);
+	printf("month = %d and day = %d\n", monthp, dayp);*/
+	/* --------------------------------------------------------------------- */
 
+	/* ------------------Initialization Pointer Arrays---------------------- */
+	// month_name(n);
 	/* --------------------------------------------------------------------- */
 
 	return 0;
@@ -429,6 +433,19 @@ int strcmp_2(char *s, char *t) {
 		}
 	}
 	return *s - *t;
+}
+
+/* function month_name: return name of n-th month */
+char *month_name(int n) {
+	static char *name[] = {
+		"Illegal month",
+		"January", "Ferbuary",  "March",
+		"April", "May", "June",
+		"July", "August", "September",
+		"Octorber", "November", "December"
+	};
+
+	return (n < 1 || n > 12) ? name[0] : name[n];
 }
 
 
