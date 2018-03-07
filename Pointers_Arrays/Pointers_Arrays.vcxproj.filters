@@ -75,6 +75,9 @@
     <ClCompile Include="Exercise5_8.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Eexrcise5_9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calc5_6.h">

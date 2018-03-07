@@ -352,6 +352,18 @@ int main() {
 	// month_name(n);
 	/* --------------------------------------------------------------------- */
 
+	/* ------------------ Pointers And Multidimension Arrays ---------------- */
+	int a[10][20];		// a is a true two dimension array and 200 int-sized location have been set aside.
+	int *b[10];			// The defination just only allocator 10 pointers and not initialization them
+						// The initialization must be done explicitly.
+	a[3][4];
+	b[3][4];
+
+	//Ex:
+	char *name[] = { "Illegal month", "Jan", "Feb", "Mar" };
+	char anme[][15] = { "Illegal month", "Jan", "Feb", "Mar" };
+	/* ---------------------------------------------------------------------- */
+
 	return 0;
 }
 
