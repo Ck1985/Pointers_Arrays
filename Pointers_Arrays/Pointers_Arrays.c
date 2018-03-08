@@ -353,7 +353,7 @@ int main() {
 	/* --------------------------------------------------------------------- */
 
 	/* ------------------ Pointers And Multidimension Arrays ---------------- */
-	int a[10][20];		// a is a true two dimension array and 200 int-sized location have been set aside.
+	/*int a[10][20];		// a is a true two dimension array and 200 int-sized location have been set aside.
 	int *b[10];			// The defination just only allocator 10 pointers and not initialization them
 						// The initialization must be done explicitly.
 	a[3][4];
@@ -361,7 +361,27 @@ int main() {
 
 	//Ex:
 	char *name[] = { "Illegal month", "Jan", "Feb", "Mar" };
-	char anme[][15] = { "Illegal month", "Jan", "Feb", "Mar" };
+	char anme[][15] = { "Illegal month", "Jan", "Feb", "Mar" };*/
+
+	//printf("%d\n", day_of_year5_9(2000, 3, 4));
+	/*int monthp = 0;
+	int dayp = 0;
+	month_day5_9(2000, 64, &monthp, &dayp);
+	//int month = monthp;
+	//int day = dayp;
+	printf("month = %d && day = %d\n", monthp, dayp);*/
+	/*int *p;
+	int x = 3;
+	p = &x;
+	printf("%d\n", *p);*/
+
+	/*char *test = "abcdefgh";
+	char *test2 = "lmnijk";
+	char *arrp[] = { test, test2 };
+
+	char *p = arrp[1];
+	char *p1 = p + 2;
+	char value = *p1;*/
 	/* ---------------------------------------------------------------------- */
 
 	return 0;
