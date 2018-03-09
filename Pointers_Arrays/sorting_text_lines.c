@@ -46,6 +46,22 @@ int getline(char s[], int limit) {
 	return i;
 }
 
+int getline2(char *line, int limit) {
+	int c, i;
+
+	for (i = 0, i < limit - 1; ((c = getchar()) != EOF) && (c != '\n'); i++) {
+		*line++ = c;
+	}
+	if (c == '\n') {
+		*line++ = c;
+		i++;
+		//line++;
+	}
+	*line = '\0';
+
+	return i;
+}
+
 #define ALLOCSIZE 10000
 
 static char allocbuf[ALLOCSIZE];

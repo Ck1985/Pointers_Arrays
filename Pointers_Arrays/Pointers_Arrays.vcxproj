@@ -151,6 +151,7 @@
     <ClCompile Include="Exercise5_6.c" />
     <ClCompile Include="Exercise5_7.c" />
     <ClCompile Include="Exercise5_8.c" />
+    <ClCompile Include="find.c" />
     <ClCompile Include="getch.c" />
     <ClCompile Include="getch5_1.c" />
     <ClCompile Include="getch5_2.c" />
@@ -166,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calc5_6.h" />
+    <ClInclude Include="CommandLinesArguments.h" />
     <ClInclude Include="leafYear.h" />
     <ClInclude Include="sorting_line.h" />
   </ItemGroup>
