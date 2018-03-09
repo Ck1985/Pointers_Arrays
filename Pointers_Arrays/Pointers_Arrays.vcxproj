@@ -140,6 +140,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="echo_1.c" />
+    <ClCompile Include="echo_2.c" />
     <ClCompile Include="Eexrcise5_9.c" />
     <ClCompile Include="Exercise5_1.c" />
     <ClCompile Include="Exercise5_2.c" />

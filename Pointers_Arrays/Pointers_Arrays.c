@@ -49,7 +49,7 @@ int strindex5_6(char *ps, char *pt);
 int strlen5_6(char *ps);
 char *month_name(int n);
 
-int main() {
+//int main() {
 	/* ----------- Pointers and Adresses ------------- */
 	/*char c = 'a';
 	char p = &c; // Note: if we declare this style so that p is not a pointer which point to c.
@@ -384,8 +384,12 @@ int main() {
 	char value = *p1;*/
 	/* ---------------------------------------------------------------------- */
 
-	return 0;
-}
+	/* --------------------- Command-line Arguments ------------------------- */
+	
+	/* ---------------------------------------------------------------------- */
+
+	//return 0;
+//}
 
 // Note: Actually when main (calling function) call swap (called function) it takes two copies of 2 pointer
 // But 2 copies pointer still pointer two variable (because copies pointers points to two variables)
