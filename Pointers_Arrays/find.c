@@ -5,7 +5,7 @@
 
 #define MAXLINE 1000
 
-main(int argc, char *argv[]) {
+/*main(int argc, char *argv[]) {
 	/*char line[MAXLINE];
 	int found = 0;
 
@@ -23,7 +23,7 @@ main(int argc, char *argv[]) {
 
 	return found;*/
 
-	char line[MAXLINE];
+	/*char line[MAXLINE];
 	long lineno = 0;
 	int c, except = 0, number = 0, found = 0;
 
@@ -73,5 +73,5 @@ main(int argc, char *argv[]) {
 
 	printf("%c%c", c1, c2);*/
 
-	return found;
-}
+	//return found;
+//}

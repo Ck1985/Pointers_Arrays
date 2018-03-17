@@ -49,7 +49,7 @@ int strindex5_6(char *ps, char *pt);
 int strlen5_6(char *ps);
 char *month_name(int n);
 
-//int main() {
+//int main(int argc, char *argv[]) {
 	/* ----------- Pointers and Adresses ------------- */
 	/*char c = 'a';
 	char p = &c; // Note: if we declare this style so that p is not a pointer which point to c.
@@ -385,7 +385,10 @@ char *month_name(int n);
 	/* ---------------------------------------------------------------------- */
 
 	/* --------------------- Command-line Arguments ------------------------- */
-	
+	/*char test = *argv[0];
+	int a = 0;
+	//test2 = (*++argv)[1], test3 = *++argv[1];
+	printf("*argv[0] = %c\n(*++agrv)[2] = \n *++argv[0] = %c\n", test, *++argv[0]);*/
 	/* ---------------------------------------------------------------------- */
 
 	//return 0;
