@@ -9,9 +9,9 @@ int main(int argc, char *argv[]) {
 	int c;
 	int op1, op2;
 	char s[MAXSIZE];
-	while ((c = getop5_10(s, argc, argv)) != EOF) {
+	while ((c = getop5_10(s, argc, argv)) != -1) {
 		switch (c) {
-		case 0:
+		case 1:
 			push5_10(atof(s));
 			break;
 		case '+': 
@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
 				push5_10(result);
 			}
 		break;
-		case '\n':
+		case NULL:
 			printf("Result Reverse Polish Notation is: %d\n", pop5_10());
 		default:
 			printf("Error Unknown operator !!!");
@@ -53,5 +53,6 @@ int main(int argc, char *argv[]) {
 
 	return result;
 
-	return 0;
+	//char test = *argv[0], test2 = *++argv[2];
+	//printf("test = %c \ntest2 = %c \n", test, test2);
 }

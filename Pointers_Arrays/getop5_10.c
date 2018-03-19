@@ -1,31 +1,30 @@
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 #include "calc5_10.h"
 
-#define OPERAND 0
+#define OPERAND 1
 
 int getop5_10(char s[], int argc, char *argv[]) {
-	int i = 0, c;
+	static int indexPointer = 1;
+	int index = 1, i;
 
-	while ((s[0] = c = getch5_10(argc, argv)) == ' ' || c == '\t')
-		;
-	s[1] = '\0';
-	if (!isdigit(c) && c != '.') {
-		return c;
-	}
-	while (isdigit(c)) {
-		s[i++] = c;
-		c = getch5_10(argc, argv);
-	}
-	if (c == '.') {
-		while (isdigit(c)) {
-			s[i++] = c;
-			c = getch5_10(argc, argv);
+	if (indexPointer < argc) {
+		i = 0;
+		char character;
+		while ((character = *(argv[index]++)) != '\0') {
+			if (!isdigit(character) && character != '.') {
+				return character;
+			}
+			if (isdigit(character)) {
+				s[i++] = character;
+			}
 		}
+		s[i] = '\0';
+		indexPointer++;
+		return OPERAND;
 	}
-	if (c != EOF) {
-		ungetch5_10(c);
+	else {
+		return NULL;
 	}
-	s[i] = '\0';
-
-	return OPERAND;
 }
