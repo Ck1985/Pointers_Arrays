@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
 		case 1:
 			push5_10(atof(s));
 			break;
-		case '+': 
+		case '+':
 			op2 = pop5_10();
 			op1 = pop5_10();
 			result = op2 + op1;
@@ -43,8 +43,9 @@ int main(int argc, char *argv[]) {
 				push5_10(result);
 			}
 		break;
-		case NULL:
+		case 0:
 			printf("Result Reverse Polish Notation is: %d\n", pop5_10());
+			break;
 		default:
 			printf("Error Unknown operator !!!");
 			break;
@@ -52,7 +53,4 @@ int main(int argc, char *argv[]) {
 	}
 
 	return result;
-
-	//char test = *argv[0], test2 = *++argv[2];
-	//printf("test = %c \ntest2 = %c \n", test, test2);
 }

@@ -96,9 +96,6 @@
     <ClCompile Include="stack5_10.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="getch5_10.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="calc5_10.h">
       <Filter>Source Files</Filter>
     </ClCompile>
