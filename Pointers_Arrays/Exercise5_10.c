@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include "calc5_10.h"
 
-int main(int argc, char *argv[]) {
+/*int main(int argc, char *argv[]) {
 	double result = 0;
 	int c;
 	int op1, op2;
@@ -53,4 +53,4 @@ int main(int argc, char *argv[]) {
 	}
 
 	return result;
-}
+}*/

@@ -49,7 +49,7 @@ int strindex5_6(char *ps, char *pt);
 int strlen5_6(char *ps);
 char *month_name(int n);
 
-//int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
 	/* ----------- Pointers and Adresses ------------- */
 	/*char c = 'a';
 	char p = &c; // Note: if we declare this style so that p is not a pointer which point to c.
@@ -370,6 +370,7 @@ char *month_name(int n);
 	//int month = monthp;
 	//int day = dayp;
 	printf("month = %d && day = %d\n", monthp, dayp);*/
+
 	/*int *p;
 	int x = 3;
 	p = &x;
@@ -391,8 +392,12 @@ char *month_name(int n);
 	printf("*argv[0] = %c\n(*++agrv)[2] = \n *++argv[0] = %c\n", test, *++argv[0]);*/
 	/* ---------------------------------------------------------------------- */
 
-	//return 0;
-//}
+	/*----------------------- Exercise 5 - 11 ------------------- */
+	
+	/* ---------------------------------------------------------- */
+
+	return 0;
+}
 
 // Note: Actually when main (calling function) call swap (called function) it takes two copies of 2 pointer
 // But 2 copies pointer still pointer two variable (because copies pointers points to two variables)
