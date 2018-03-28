@@ -13,6 +13,7 @@
 #include "calc5_6.h"
 #include "sorting_line.h"
 #include "leafYear.h"
+#include "Pointers_To_Functions.h"
 
 #define SIZE 100
 #define MAXOP 100
@@ -392,9 +393,9 @@ int main(int argc, char *argv[]) {
 	printf("*argv[0] = %c\n(*++agrv)[2] = \n *++argv[0] = %c\n", test, *++argv[0]);*/
 	/* ---------------------------------------------------------------------- */
 
-	/*----------------------- Exercise 5 - 11 ------------------- */
+	/*----------------------- Pointers To Functions ------------------- */
 	
-	/* ---------------------------------------------------------- */
+	/* ---------------------------------------------------------------- */
 
 	return 0;
 }

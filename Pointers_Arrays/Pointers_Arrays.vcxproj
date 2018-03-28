@@ -165,6 +165,7 @@
     <ClCompile Include="LeafYear.c" />
     <ClCompile Include="PointersAndArrays.c" />
     <ClCompile Include="Pointers_Arrays.c" />
+    <ClCompile Include="Pointers_To_Functions.c" />
     <ClCompile Include="Rudimentary_Storage_Allocator.c" />
     <ClCompile Include="sorting_text_lines.c" />
     <ClCompile Include="stack5_10.c" />
@@ -175,6 +176,7 @@
     <ClInclude Include="CommandLinesArguments.h" />
     <ClInclude Include="Exercise5_11.h" />
     <ClInclude Include="leafYear.h" />
+    <ClInclude Include="Pointers_To_Functions.h" />
     <ClInclude Include="sorting_line.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
