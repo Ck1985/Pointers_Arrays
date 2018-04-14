@@ -105,6 +105,12 @@
     <ClCompile Include="Pointers_To_Functions.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Exercise5_14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorting_Line_5_14.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="calc5_6.h">
@@ -123,6 +129,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Pointers_To_Functions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exercise5_14.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

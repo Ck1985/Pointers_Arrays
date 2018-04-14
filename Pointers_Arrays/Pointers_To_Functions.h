@@ -2,3 +2,6 @@
 
 char *lineptr[MAXLINES];	/* pointer to text lines */
 
+void qsortPTF(void *v[], int left, int rigth, int(*comp)(void *, void *));
+int numcmp(char *, char *);
+

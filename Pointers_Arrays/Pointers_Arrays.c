@@ -50,7 +50,7 @@ int strindex5_6(char *ps, char *pt);
 int strlen5_6(char *ps);
 char *month_name(int n);
 
-int main(int argc, char *argv[]) {
+//int main(int argc, char *argv[]) {
 	/* ----------- Pointers and Adresses ------------- */
 	/*char c = 'a';
 	char p = &c; // Note: if we declare this style so that p is not a pointer which point to c.
@@ -298,7 +298,7 @@ int main(int argc, char *argv[]) {
 
 	/* ------------------ Pointer Arrays && Pointers to Pointers -------------------- */
 	/*int nlines;
-	if ((nlines = readlines(lineptr, MAXLINES)) >= 0) {
+	if ((nlines = readlines(lineptr, MAXLINES)) > 0) {
 		quicksort(lineptr, 1, nlines - 1);
 		writelines(lineptr, nlines);
 		return 0;
@@ -307,6 +307,21 @@ int main(int argc, char *argv[]) {
 		printf("Error: Input text lines too big to sort\n");
 		return 1;
 	}*/
+
+	/*char str1[] = "aaaaaaaaaaaa";
+	char str2[] = "wwwwwwwwwwwwww";
+	char str3[] = "ffffffffffffff";
+	char str4[] = "bbbbbbbbbbb";
+	char str5[] = "jjjjjjjjjjjj";
+	char str6[] = "iiiiiii";
+	char str7[] = "ssssssss";
+
+	char *p1 = str1, *p2 = str2, *p3 = str3, *p4 = str4, *p5 = str5, *p6 = str6, *p7 = str7;
+
+	char *arrayp[] = { p1, p2, p3, p4, p5, p6, p7 };
+
+	quicksort(arrayp, 1, 6);
+	writelines(arrayp, 7);*/
 
 	// Exercise5_7.c
 	/*int nlines;
@@ -394,11 +409,26 @@ int main(int argc, char *argv[]) {
 	/* ---------------------------------------------------------------------- */
 
 	/*----------------------- Pointers To Functions ------------------- */
-	
+	//int nlines;			/* number of input lines to read */
+	//int numeric = 0;
+
+	/*if (argc > 1 && strcmp(argv[1], "-n") == 0) {
+		numeric = 1;
+	}
+	if ((nlines = readlines(lineptr, MAXLINES)) >= 0) {
+		qsortPTF((void**) lineptr, 0, nlines - 1, (int (*)(void *, void *)) numeric ? numcmp : strcmp);
+		writelines(lineptr, nlines);
+		return 0;
+	}
+	else {
+		printf("Input lines too big to sort \n");
+		return 1;
+	}*/
+
 	/* ---------------------------------------------------------------- */
 
-	return 0;
-}
+	//return 0;
+//}
 
 // Note: Actually when main (calling function) call swap (called function) it takes two copies of 2 pointer
 // But 2 copies pointer still pointer two variable (because copies pointers points to two variables)

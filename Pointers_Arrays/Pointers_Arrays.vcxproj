@@ -147,6 +147,7 @@
     <ClCompile Include="Exercise5_1.c" />
     <ClCompile Include="Exercise5_10.c" />
     <ClCompile Include="Exercise5_11.c" />
+    <ClCompile Include="Exercise5_14.c" />
     <ClCompile Include="Exercise5_2.c" />
     <ClCompile Include="Exercise5_3.c" />
     <ClCompile Include="Exercise5_4.c" />
@@ -167,6 +168,7 @@
     <ClCompile Include="Pointers_Arrays.c" />
     <ClCompile Include="Pointers_To_Functions.c" />
     <ClCompile Include="Rudimentary_Storage_Allocator.c" />
+    <ClCompile Include="Sorting_Line_5_14.c" />
     <ClCompile Include="sorting_text_lines.c" />
     <ClCompile Include="stack5_10.c" />
     <ClCompile Include="stack5_6.c" />
@@ -175,6 +177,7 @@
     <ClInclude Include="calc5_6.h" />
     <ClInclude Include="CommandLinesArguments.h" />
     <ClInclude Include="Exercise5_11.h" />
+    <ClInclude Include="Exercise5_14.h" />
     <ClInclude Include="leafYear.h" />
     <ClInclude Include="Pointers_To_Functions.h" />
     <ClInclude Include="sorting_line.h" />
